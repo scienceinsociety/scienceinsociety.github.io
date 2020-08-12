@@ -43,16 +43,15 @@ body {
     padding-top: 20px;
 }
 
-.exec-header {
-    color: #272727;
-    position: absolute;
+.header {
     font-weight: 900;
     font-size: 8rem;
-    white-space: nowrap;
     text-align: center;
-    left: 0;
-    right: 0;
     z-index: 0;
+}
+
+.exec-header {
+    color: #3f3f3f;
 }
 
 .person {
@@ -60,8 +59,8 @@ body {
     padding-bottom: 3rem;
 }
 
-.first {
-    margin-top: 7rem;
+.first-col {
+    margin-top: 2rem;
 }
 
 .team-pic {
@@ -90,32 +89,17 @@ body {
 }
 
 .plan-header {
-    color: #353535;
-    position: absolute;
-    font-weight: 900;
-    font-size: 8rem;
-    white-space: nowrap;
-    text-align: center;
-    left: 0;
-    right: 0;
-    z-index: 0;
+    color: #555555;
 }
 
 #lia-sect {
-    background-color: #353535;
+    background-color: #383838;
     padding-top: 20px;
 }
 
 .lia-header {
-    color :#3E3E3E;
-    position: absolute;
-    font-weight: 900;
-    font-size: 8rem;
-    white-space: nowrap;
-    text-align: center;
-    left: 0;
-    right: 0;
-    z-index: 0;
+    color :#5f5f5f;
+
 }
 
 footer {
@@ -133,8 +117,31 @@ footer {
     font-size: 0.9rem;
 }
 
-  @media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1600px) {
+    .header {
+        font-size: 6rem;
+    }
+}
 
+  @media only screen and (max-width: 1200px){
+    .header {
+        font-size: 4rem;
+    }
+    .first-col {
+        margin: 0;
+    }
+
+    .first {
+        margin-top: 1.6rem;
+    }
+    .team-pic {
+        width: 300px;
+    }
+
+    .team-desc {
+        margin-left: 16%;
+        margin-right: 16%;
+    }
  }
  
  @media only screen and (max-width: 1000px){
@@ -149,6 +156,19 @@ footer {
          font-size: 1rem;
          margin-left: 0;
      }
+     .header {
+         font-size: 4rem;
+         margin-left: 10px;
+         margin-right: 10px;
+     }
+     .team-pic {
+        width: 260px;
+    }
+
+    .team-desc {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
  }
  
  @media only screen and (max-width: 450px) {
@@ -159,6 +179,12 @@ footer {
          font-size: 0.8rem;
          margin-left: 6px;
      }
+     footer {
+         font-size: 0.7rem;
+     }
+     .made-by-webpoint {
+        font-size: 0.8rem;
+    }
  }
  
  @media only screen and (max-width: 326px){
