@@ -48,6 +48,8 @@ body {
     font-size: 8rem;
     text-align: center;
     z-index: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .exec-header {
@@ -184,6 +186,9 @@ footer {
      }
      .made-by-webpoint {
         font-size: 0.8rem;
+    }
+    .header {
+        font-size: 3.7rem;
     }
  }
  
