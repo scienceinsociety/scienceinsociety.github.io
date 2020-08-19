@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* { 
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oxygen', sans-serif;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    background: #222;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .navbar-brand{
+      margin-left: 50px;
+      font-size: 1.3rem;
+      font-family: 'Montserrat', sans-serif;
+  }
+  
+  .collapse {
+    padding-right: 4vw;
+  }
+  
+  .nav-item {
+    padding-left: 1.5vw;
+    font-size: 0.9rem;
+  }
+
+  .nav-link {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .logo {
+      height: 30px;
+      padding-right: 16px;;
+  }
+
+  .contact-social-link {
+    text-decoration: none;
+  }
+
+  #contact-insta, #contact-facebook {
+    padding: 20px;
+    color: #7b7c7c;
+    font-size: 1.1rem;
+  }
+
+  #contact {
+      position: absolute;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+  }
+
+  .contact-social {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  }
+
+  #contact-insta:hover, #contact-facebook:hover {
+    color: #000;
+    transition: all ease 0.4s;
+  }
+
+  .contact-box {
+      background-color: #222;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 30px;
+      box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+  }
+
+  .heading {
+      color: #fff;
+      font-size: 4.2rem;
+      font-weight: lighter;
+      margin: 0px;
+      padding: 0px;
+  }
+
+  .subheading {
+      color: #a1a1a1;
+      font-size: 1.2rem;
+      font-weight: lighter;
+      margin: 0px;
+      padding: 0px;
+  }
+
+  .contact-form {
+      margin: 15px 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .contact-form input {
+      width: 340px;
+      height: 45px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #aaa;
+      color: #fff;
+      outline: none;
+      margin: 10px 20px;
+      padding: 10px;
+      box-sizing: border-box;
+      display: flex;
+  }
+
+  .contact-form textarea {
+      width: 340px !important;
+      height: 200px !important;
+      outline: none;
+      background-color: #111;
+      border: none;
+      border-bottom: 1px solid #aaa;
+      color: #fff;
+      margin-top: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+
+  .contact-form button {
+      width: 150px;
+      height: 40px;
+      background-color: #0056d6;
+      color: #fff;
+      border: none;
+      outline: none;
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  }
+
+    .contact-form input:focus, .contact-form textarea:focus {
+        border-bottom: 1px solid #247cff;
+        transition: all ease 0.4s;
+    }
+
+    .contact-form button:active {
+        transform: scale(1.02);
+    }
+
+    .map {
+        filter: grayscale(0.2);
+        box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+        border: 2px solid #fff;
+    }
+ 
+ @media only screen and (max-width: 1140px){
+     .map {
+         display: none;
+     }
+ }
+ 
+ @media only screen and (max-width: 768px){
+     .logo {
+         height: 26px;
+     }
+     .navbar-brand {
+         font-size: 1rem;
+         margin-left: 0;
+     }
+ }
+
+ @media only screen and (max-width: 530px){
+    .contact-social {
+        display: none;
+    }
+    .contact-box {
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+    }
+    #contact {
+        position: static;
+        transform: translate(0,0);
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+    }
+
+    .heading {
+        margin-top: -10%;
+        margin-left: 20px;
+        font-size: 4rem;
+    }
+
+    .subheading {
+        margin-left: 25px;
+        font-size: 1.1rem;
+    }
+}
+ 
+ @media only screen and (max-width: 450px) {
+     .logo {
+         height: 20px;
+     }
+     .navbar-brand {
+         font-size: 0.8rem;
+         margin-left: 6px;
+     }
+     .contact-form input {
+        width: 300px;
+        height: 45px;
+    }
+  
+    .contact-form textarea {
+        width: 300px !important;
+        height: 200px !important;
+    }
+}
+ 
+ @media only screen and (max-width: 326px){
+     .logo {
+         display: none;
+     }
+     .heading {
+        font-size: 3.4rem;
+    }
+    .subheading {
+        font-size: 0.9rem;
+    }
+    .contact-form input {
+        width: 260px;
+        height: 30px;
+    }
+  
+    .contact-form textarea {
+        width: 260px !important;
+        height: 100px !important;
+    }
+ }

@@ -6,6 +6,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Oxygen', sans-serif;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -38,7 +39,7 @@ body {
 }
 
 #exec-sect {
-    background-color: #191919;
+    background-color: #6d8fff;
     z-index: -2;
     padding-top: 20px;
 }
@@ -53,7 +54,11 @@ body {
 }
 
 .exec-header {
-    color: #3f3f3f;
+    color: #fff;
+}
+
+.exec {
+    color: #6d8fff;
 }
 
 .person {
@@ -73,11 +78,11 @@ body {
     margin-top: 1.8rem;
     margin-bottom: 0.8rem;
     z-index: 1;
-    color: #E8E8E8;
+    color: #fdfdfd;
 }
 
 .team-desc {
-    color: #8E8E8E;
+    color: #dbdbdb;
     font-size: 0.9rem;
     z-index: 1;
     margin-left: 0.9rem;
@@ -86,23 +91,32 @@ body {
 }
 
 #plan-sect {
-    background-color: #272727;
+    background-color: #ffffff;
     padding-top: 20px;
 }
 
 .plan-header {
-    color: #555555;
+    color: #6d8fff;
 }
 
 #lia-sect {
-    background-color: #383838;
+    background-color: #6d8fff;
     padding-top: 20px;
 }
 
 .lia-header {
-    color :#5f5f5f;
+    color :#fff;
 
 }
+
+
+.plan-name {
+    color: #6d8fff;
+  }
+
+  .plan-desc {
+    color: #212944;
+  }
 
 footer {
     background: #111;
