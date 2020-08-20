@@ -79,12 +79,12 @@ body {
 .slant {
     height: 100px;
     width: 100%;
-    fill: #6d8fff;
+    fill: #829fff;
     transform: (-1px, 0px);
 }
 
 .attend {
-    background-color: #6d8fff;
+    background-color: #829fff;
     color: #fff;
 }
 

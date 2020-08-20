@@ -222,6 +222,12 @@
         height: 200px !important;
     }
 }
+
+/* @media only screen and (max-width: 350px) {
+    .heading {
+        margin-top: 40px;
+    }
+} */
  
  @media only screen and (max-width: 326px){
      .logo {
