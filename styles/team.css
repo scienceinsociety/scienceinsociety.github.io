@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
-body { 
+body {
     scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-    background: #222;
+    background: #FFF;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -19,11 +19,11 @@ body {
     font-size: 1.3rem;
     font-family: 'Montserrat', sans-serif;
 }
-  
+
 .collapse {
     padding-right: 4vw;
 }
-  
+
 .nav-item {
     padding-left: 1.5vw;
     font-size: 0.9rem;
@@ -39,7 +39,7 @@ body {
 }
 
 #exec-sect {
-    background-color: #829fff;
+    background-color: #4d76ff;
     z-index: -2;
     padding-top: 20px;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .exec {
-    color: #829fff;
+    color: #4d76ff;
 }
 
 .person {
@@ -78,11 +78,11 @@ body {
     margin-top: 1.8rem;
     margin-bottom: 0.8rem;
     z-index: 1;
-    color: #fdfdfd;
+    color: #ffffff;
 }
 
 .team-desc {
-    color: #f7f7f7;
+    color: #ffffff;
     font-size: 0.9rem;
     z-index: 1;
     margin-left: 0.9rem;
@@ -100,7 +100,7 @@ body {
 }
 
 #lia-sect {
-    background-color: #829fff;
+    background-color: #4d76ff;
     padding-top: 20px;
 }
 
@@ -111,7 +111,7 @@ body {
 
 
 .plan-name {
-    color: #829fff;
+    color: #4d76ff;
   }
 
   .plan-desc {
@@ -187,7 +187,7 @@ footer {
         margin-right: 16%;
     }
  }
- 
+
  @media only screen and (max-width: 992px){
 
     .footer-left {
@@ -195,7 +195,7 @@ footer {
         margin: 0;
         margin-top: 30px;
     }
-  
+
     .footer-center {
       text-align: center;
       margin: 30px;
@@ -223,7 +223,7 @@ footer {
     }
 
  }
- 
+
  @media only screen and (max-width: 768px){
      .logo {
          height: 26px;
@@ -246,7 +246,7 @@ footer {
         margin-right: 10%;
     }
  }
- 
+
  @media only screen and (max-width: 450px) {
      .logo {
          height: 20px;
@@ -265,7 +265,7 @@ footer {
         font-size: 3.7rem;
     }
  }
- 
+
  @media only screen and (max-width: 326px){
      .logo {
          display: none;

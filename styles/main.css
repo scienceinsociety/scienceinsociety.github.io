@@ -10,7 +10,7 @@
   }
 
   .navbar {
-    background: #222;
+    background: #FFF;
     font-family: 'Montserrat', sans-serif;
   }
 
@@ -65,7 +65,7 @@
   }
 
 .hero-register-btn {
-    background-color: #0C5EB7;
+    background-color: #2951d9;
     color: #fff;
     font-size: 1.4rem;
     padding: 16px 32px;

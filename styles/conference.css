@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
-* { 
+* {
     scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
@@ -10,7 +10,7 @@
   }
 
   .navbar {
-    background: #222;
+    background: #FFF;
     font-family: 'Montserrat', sans-serif;
   }
 
@@ -19,11 +19,11 @@
       font-size: 1.3rem;
       font-family: 'Montserrat', sans-serif;
   }
-  
+
   .collapse {
     padding-right: 4vw;
   }
-  
+
   .nav-item {
     padding-left: 1.5vw;
     font-size: 0.9rem;
