@@ -3,12 +3,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Science in Scoiety Conference | Howard County High School STEM Confrence</title>
-        <meta name="description" content="STEM-based conference in 
-        Howard County aimed at exposing students to the STEM world 
+        <meta name="description" content="STEM-based conference in
+        Howard County aimed at exposing students to the STEM world
         and opportunities outside the classroom.">
-        <meta name="keywords" content="STEM, science, 
-        technology, engineering, math, high school, 
-        Science in Society, Conference, society, 
+        <meta name="keywords" content="STEM, science,
+        technology, engineering, math, high school,
+        Science in Society, Conference, society,
         Howard County, HCPSS">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="index,follow">
@@ -19,16 +19,16 @@
     </head>
     <body>
         <nav class= "navbar navbar-expand-xl navbar-dark">
-            <a class = "navbar-brand" href="index.html"><img class = "logo" src="images/SISC-Logo.jpg" 
+            <a class = "navbar-brand" href="index.html"><img class = "logo" src="images/SISC-Logo.jpg"
                 alt="SISC Logo">Science in Society Confrence</a>
             <button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggler">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbar-toggler">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"> <a class="nav-link" href="#hero">Home</a> </li>
+                        <li class="nav-item active"> <a class="nav-link" href="index.html">Home</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="">Confrence Details</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="">Conference Details</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="team.html">Our Team</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
                     </ul>
@@ -47,13 +47,13 @@
             <div class="row">
                 <div class="col-xl-6">
                     <h1 class="what-is-header">What is the Science in Society Conference?</h1>
-                    <p class="what-is-text">The SiS Conference will be virtual 
-                        this year and has been held annually to cultivate an early 
-                        passion for the STEM field in high school students from 
-                        around Howard County. Local speakers that represent a 
-                        wide range of STEM-related professions are invited to 
-                        conduct workshops for the attendees. Students have the 
-                        opportunity to discover a variety of internship opportunities 
+                    <p class="what-is-text">The SiS Conference will be virtual
+                        this year and has been held annually to cultivate an early
+                        passion for the STEM field in high school students from
+                        around Howard County. Local speakers that represent a
+                        wide range of STEM-related professions are invited to
+                        conduct workshops for the attendees. Students have the
+                        opportunity to discover a variety of internship opportunities
                         and have the opportunity to network with professionals in the field.</p>
                 </div>
                 <div class="col-xl-6">
@@ -62,11 +62,11 @@
                         <img src="images/keynote.jpg" style="width:100%" class="slide transition">
                         <img src="images/cafeteria.jpg" style="width:100%" class="slide transition">
                         <img src="images/booths.jpg" style="width:100%" class="slide transition">
-                    
+
                       <a class="prev-btn" onclick="nextSlide(-1)">&#10094;</a>
                       <a class="next-btn" onclick="nextSlide(1)">&#10095;</a>
                       <br>
-                    
+
                       <div name="all-clickers" style="text-align:center">
                         <span class="clicker" onclick="displaySlide(1)"></span>
                         <span class="clicker" onclick="displaySlide(2)"></span>
@@ -99,15 +99,15 @@
         <script>
             var slideIndex = 1;
             display(slideIndex);
-            
+
             function displaySlide(num) {
               display(slideIndex = num);
             }
-            
+
             function nextSlide(num) {
               display(slideIndex += num);
             }
-            
+
             function display(num) {
               var slideNum = document.getElementsByClassName("slide");
               if (num > slideNum.length) {
