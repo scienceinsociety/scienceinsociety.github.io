@@ -39,27 +39,24 @@ body {
 }
 
 #exec-sect {
-    background-color: #4d76ff;
+    background-color: #fff;
     z-index: -2;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header {
     font-weight: 900;
-    font-size: 8rem;
+    font-size: 6rem;
     text-align: center;
     z-index: 0;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px
 }
 
 .exec-header {
-    color: #fff;
+    color: rgb(211, 211, 211);
 }
 
-.exec {
-    color: #4d76ff;
-}
 
 .person {
     text-align: center;
@@ -78,11 +75,9 @@ body {
     margin-top: 1.8rem;
     margin-bottom: 0.8rem;
     z-index: 1;
-    color: #ffffff;
 }
 
 .team-desc {
-    color: #ffffff;
     font-size: 0.9rem;
     z-index: 1;
     margin-left: 0.9rem;
@@ -91,32 +86,35 @@ body {
 }
 
 #plan-sect {
-    background-color: #ffffff;
+    background-color: #829fff;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .plan-header {
-    color: #6d8fff;
+    color: #b1c3ff;
 }
 
 #lia-sect {
-    background-color: #4d76ff;
+    background-color: #fff;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .lia-header {
-    color :#fff;
+    color: rgb(211, 211, 211);
 
 }
-
+/* color: #4d76ff; */
 
 .plan-name {
-    color: #4d76ff;
+    color: #fff;
   }
 
   .plan-desc {
-    color: #212944;
+    color: #fff;
   }
+
 
 footer {
     background: #111;

@@ -106,36 +106,38 @@
   }
 
   .contact-form input {
-      width: 340px;
-      height: 45px;
-      background-color: transparent;
-      border: none;
-      border-bottom: 1px solid #aaa;
-      color: #fff;
-      outline: none;
-      margin: 10px 20px;
-      padding: 10px;
-      box-sizing: border-box;
-      display: flex;
-  }
+    /* width: 340px; <-- Width for when map is displayed */
+    width: 700px;
+    height: 5vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    color: #fff;
+    outline: none;
+    margin: 10px 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
 
-  .contact-form textarea {
-      width: 340px !important;
-      height: 200px !important;
-      outline: none;
-      background-color: #111;
-      border: none;
-      border-bottom: 1px solid #aaa;
-      color: #fff;
-      margin-top: 20px;
-      padding: 10px;
-      box-sizing: border-box;
-  }
+.contact-form textarea {
+  /* width: 340px !important; <-- Width for when map is displayed */
+    width: 700px !important;
+    height: 20vh !important;
+    outline: none;
+    background-color: #111;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
   .contact-form button {
       width: 150px;
       height: 40px;
-      background-color: #0056d6;
+      background-color: #3b69ff;
       color: #fff;
       border: none;
       outline: none;
@@ -145,7 +147,7 @@
   }
 
     .contact-form input:focus, .contact-form textarea:focus {
-        border-bottom: 1px solid #247cff;
+        border-bottom: 1px solid #3b69ff;
         transition: all ease 0.4s;
     }
 
@@ -163,6 +165,12 @@
      .map {
          display: none;
      }
+     .contact-form input {
+        width: 340px;
+    }
+    .contact-form textarea {
+        width: 340px !important; 
+    }
  }
 
  @media only screen and (max-width: 768px){

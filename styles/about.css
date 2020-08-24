@@ -79,17 +79,17 @@ body {
 .slant {
     height: 100px;
     width: 100%;
-    fill: #4d76ff;
+    fill: #829fff;
     transform: (-1px, 0px);
 }
 
 .attend {
-    background-color: #4d76ff;
+    background-color: #829fff;
     color: #fff;
 }
 
 .register-btn {
-    background-color: #2951d9;
+    background-color: #3b69ff;
     color: #fff;
     font-size: 1.4rem;
     padding: 16px 32px;
