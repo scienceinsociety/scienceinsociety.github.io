@@ -9,6 +9,13 @@ body {
     box-sizing: border-box;
 }
 
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .navbar {
     background: #FFF;
     font-family: 'Montserrat', sans-serif;
@@ -132,9 +139,17 @@ body {
 }
 
 .booths-list {
-    margin-left: 12%;
     margin-bottom: 100px;
     list-style: none;
+    display: flex;
+}
+
+.booth-list1 {
+    margin-right: 50px;
+}
+
+.booth-list2 {
+    margin-left: 50px;
 }
 
 .booth {
@@ -233,6 +248,16 @@ footer {
     }
     .slant {
         height: 60px;
+    }
+    .booths-list {
+        display: inline-block;
+    }
+    .booth-list1 {
+        margin-right: 0px;
+    }
+    
+    .booth-list2 {
+        margin-left: 0px;
     }
 }
 

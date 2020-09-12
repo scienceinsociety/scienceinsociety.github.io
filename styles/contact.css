@@ -9,6 +9,13 @@
     box-sizing: border-box;
   }
 
+  html,body {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+
   .navbar {
     background: #FFF;
     font-family: 'Montserrat', sans-serif;
