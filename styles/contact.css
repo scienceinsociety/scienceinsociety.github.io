@@ -13,7 +13,7 @@
         width: 100%;
         margin: 0px;
         padding: 0px;
-        overflow-x: hidden; 
+        overflow-x: hidden;
     }
 
   .navbar {
@@ -34,6 +34,12 @@
   .nav-item {
     padding-left: 1.5vw;
     font-size: 0.9rem;
+  }
+
+  .center-navbarDropdown{
+    position: relative;
+    top: 100%; /* Bottom of button */
+    right: 0;
   }
 
   .nav-link {
@@ -176,7 +182,7 @@
         width: 340px;
     }
     .contact-form textarea {
-        width: 340px !important; 
+        width: 340px !important;
     }
  }
 

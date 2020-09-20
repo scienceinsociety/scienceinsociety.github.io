@@ -13,7 +13,7 @@
     width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
   }
 
   .body {
@@ -29,6 +29,12 @@
       margin-left: 50px;
       font-size: 1.3rem;
       font-family: 'Montserrat', sans-serif;
+  }
+
+  .center-navbarDropdown{
+    position: relative;
+    top: 100%; /* Bottom of button */
+    right: 0;
   }
 
   .collapse {

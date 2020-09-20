@@ -33,6 +33,12 @@
     font-family: 'Montserrat', sans-serif;
   }
 
+  .center-navbarDropdown{
+    position: relative;
+    top: 100%; /* Bottom of button */
+    right: 0;
+  }
+
   .logo {
       height: 30px;
       padding-right: 16px;;

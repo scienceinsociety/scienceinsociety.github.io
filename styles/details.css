@@ -13,7 +13,7 @@ html,body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -34,6 +34,12 @@ html,body {
 .nav-item {
     padding-left: 1.5vw;
     font-size: 0.9rem;
+}
+
+.center-navbarDropdown{
+  position: relative;
+  top: 100%; /* Bottom of button */
+  right: 0;
 }
 
 .nav-link {
@@ -162,8 +168,8 @@ html,body {
     color: #829fff;
     font-weight: bold;
     display: inline-block;
-    width: 1em; 
-    margin-left: -1em; 
+    width: 1em;
+    margin-left: -1em;
 }
 
 .change-day {
@@ -254,7 +260,7 @@ footer {
     .booth-list1 {
         margin-right: 0px;
     }
-    
+
     .booth-list2 {
         margin-left: 0px;
     }
@@ -262,7 +268,7 @@ footer {
 
 
 @media only screen and (max-width: 992px){
-    
+
     .keynote-header {
         font-size: 4rem;
     }
