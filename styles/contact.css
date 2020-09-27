@@ -38,8 +38,8 @@
 
   .center-navbarDropdown{
     position: relative;
-    top: 100%; /* Bottom of button */
-    right: 0;
+    /* top: 100%; 
+    right: 0; */
   }
 
   .nav-link {
@@ -173,13 +173,13 @@
         box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
         border: 2px solid #fff;
     }
-
+/* 
     @media only screen and (min-width: 1140px) {
         .navbar {
             height: 220px;
             margin-top: -80px;
         }
-    }
+    } */
 
  @media only screen and (max-width: 1140px){
      .map {
