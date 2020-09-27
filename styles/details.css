@@ -172,25 +172,6 @@ html,body {
     margin-left: -1em;
 }
 
-.change-day {
-    text-align: center;
-    padding-bottom: 80px;
-}
-
-.day-btn {
-    background-color: #3b69ff;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 16px 32px;
-    border-radius: 4px;
-}
-
-.day-btn:hover {
-    background-color: #0062f5;
-    color: #fff;
-    text-decoration: none;
-}
-
 footer {
     background: #111;
     color: #fff;
@@ -440,8 +421,5 @@ footer {
 @media only screen and (max-width: 326px){
     .logo {
         display: none;
-    }
-    .day-btn {
-        font-size: 1rem;
     }
 }
