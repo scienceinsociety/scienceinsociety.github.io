@@ -120,6 +120,11 @@ html,body {
     font-weight: bold;
 }
 
+.topic-name {
+    margin-bottom: 8px;
+    color: #c7d4ff;
+}
+
 .speaker-workplace {
     margin-bottom: 30px;
     color: #cdd8fc;
@@ -386,7 +391,7 @@ footer {
     .speaker-name {
         font-size: 1.5rem;
     }
-    .speaker-workplace {
+    .topic-name {
         font-size: 1.1rem;
     }
     .speaker-desc {
